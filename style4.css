@@ -1,0 +1,191 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+		font-family:'poppins',sans-serif;
+	}
+	body{
+		width:100%;
+		background:#E5E7EB;
+color:#fff;
+		position:relative;
+		display: flex;
+	}
+	#menu{
+		background:#182f41;
+		width:300px;
+		height:100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+	#menu .logo{
+		display:flex;
+		align-item:center;
+		colour:#fff;
+		padding:30px 0 0 30px;
+	}
+	#menu .logo img{
+		width:60px;
+		height:60px;
+		margin-right: 15px;
+		border-radius: 50%;
+
+	}
+	#menu .item{
+		margin-top: 40px;
+	}
+	#menu .item li{
+		list-style: non;
+		padding:15px 0;
+
+		transition: 0.2s ease;
+
+	}
+	#menu .item li:hover{
+		background: red;
+		cursor: pointer;
+	}
+	#menu .item li:hover i,
+	#menu .item li:hover a{
+		color: #F3F4F6;
+	}
+	#menu .item li i{
+		color: rgb(134, 141, 151);
+		width:30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 14px;
+		margin:0 10px 0 25px;
+	}
+	#menu .item li a{
+		text-decoration: none;
+		color:#fff;
+		font-weight: 300px;
+		transition: 0.3s ease;
+	}
+	#interface{
+		width: calc(100% - 300px);
+		margin-left: 300px;
+		position: relative;
+		background:beige;
+	}
+	#interface .navigation{
+		display: inline-flex;
+		align-items: top;
+		justify-content: space-between;
+		background: #182f41;
+		padding: 12px 450px;
+
+		border-bottom: 3px solid darkred;
+	}
+	.i-name{
+		color: #444a53;
+		padding: 30px 30px 0 30px;
+		font-size: 22px;
+		font-weight: 600;
+	}
+	.values{
+		padding: 30px 30px 30px 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+
+	}
+	.values .val-box{
+		background: red;
+		width:180px;
+	
+		padding:6px 15px;
+		border-radius: 5px;
+		align-items: center;
+	}
+	.values .val-box1{
+		background: #33cc33;
+		width:180px;
+	
+		padding:6px 15px;
+		border-radius: 5px;
+		align-items: center;
+	}
+	.values .val-box2{
+		background: red;
+		width:180px;
+		list-style: none;
+		padding:6px 15px;
+		border-radius: 5px;
+		align-items: center;
+		transition: 0.2s;
+
+	}
+
+	.values .val-box2:hover{
+		cursor: pointer;
+		width: 20%;
+		height: 5%;
+
+	}
+	.values .val-box2 a{
+		text-decoration: none;
+	}
+	.values .val-box1:hover{
+		cursor: pointer;
+		width: 20%;
+		height: 5%;
+	}
+	.values .val-box1 a{
+		text-decoration: none;
+
+	}
+	.values .val-box:hover{
+		cursor: pointer;
+		width: 20%;
+		height: 5%;
+	}
+	.values .val-box a{
+		text-decoration: none;
+	}
+
+	.values .val-box3{
+		background: #33cc33;
+		width:180px;
+	
+		padding:6px 15px;
+		border-radius: 5px;
+		align-items: center;
+	}
+	.values .val-box3:hover{
+		cursor: pointer;
+		width: 20%;
+		height: 5%;
+	}
+
+	.values .val-box3 a{
+		text-decoration: none;
+	}
+
+
+	.board{
+		width: 94%;
+		margin: 70px 0 30px 30px;
+		overflow: auto;
+		background: #182f41;
+		border-radius: 8px;
+
+	}
+	table{
+		border-collapse: collapse;
+	}
+	tr{
+		border-bottom: 1px solid #eef0f3;
+	}
+	#interface .navigation1{
+		display: inline-flex;
+		align-items: top;
+		justify-content: space-between;
+		background: #182f41;
+		padding: 12px 450px;
+		border-bottom: 3px solid powderblue;
+	}
